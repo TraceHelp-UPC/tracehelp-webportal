@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6aeb2fec668f2711775d68e9_95658f2e-fce5-41dc-9a5a-5e45ebed4c9f",
+  "id": "Inicio_Sesion",
+  "unpublishedCollection": {
+    "name": "Sesion",
+    "pageId": "Inicio",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "ROL_DE_ESTA_APP",
+        "value": "'PORTAL'"
+      }
+    ]
+  }
+}
