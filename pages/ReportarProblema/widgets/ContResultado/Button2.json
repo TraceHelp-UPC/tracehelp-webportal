@@ -28,6 +28,8 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 38,
   "needsErrorInfo": false,
+  "originalBottomRow": 42,
+  "originalTopRow": 35,
   "parentColumnSpace": 16.0947265625,
   "parentId": "lklh692cgh",
   "parentRowSpace": 10,

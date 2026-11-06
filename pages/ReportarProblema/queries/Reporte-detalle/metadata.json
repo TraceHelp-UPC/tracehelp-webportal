@@ -1,16 +1,22 @@
 {
-  "gitSyncId": "6aeb2fec668f2711775d68e9_3d377ff0-9a8c-4617-b364-157786fa4c4c",
-  "id": "ReportarProblema_Reporte.myFun2",
+  "gitSyncId": "6aeb2fec668f2711775d68e9_5bb2e7fa-5b2f-4abf-a157-f71e2cd6980b",
+  "id": "ReportarProblema_Reporte.detalle",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
     "actionConfiguration": {
       "encodeParamsToggle": true,
-      "jsArguments": [],
+      "jsArguments": [
+        {
+          "name": "query"
+        },
+        {
+          "name": "porDefecto"
+        }
+      ],
       "paginationType": "NONE",
       "timeoutInMillisecond": 10000
     },
-    "clientSideExecution": true,
     "collectionId": "ReportarProblema_Reporte",
     "confirmBeforeExecute": false,
     "datasource": {
@@ -23,8 +29,8 @@
         "key": "body"
       }
     ],
-    "fullyQualifiedName": "Reporte.myFun2",
-    "name": "myFun2",
+    "fullyQualifiedName": "Reporte.detalle",
+    "name": "detalle",
     "pageId": "ReportarProblema",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

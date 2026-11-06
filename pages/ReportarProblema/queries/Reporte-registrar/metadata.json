@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6aeb2fec668f2711775d68e9_ee37a3a0-21b9-476a-ab75-969d57695536",
-  "id": "ReportarProblema_Reporte.myFun1",
+  "gitSyncId": "6aeb2fec668f2711775d68e9_10326966-2bf2-4698-bd9b-825f2fefd790",
+  "id": "ReportarProblema_Reporte.registrar",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -10,7 +10,6 @@
       "paginationType": "NONE",
       "timeoutInMillisecond": 10000
     },
-    "clientSideExecution": true,
     "collectionId": "ReportarProblema_Reporte",
     "confirmBeforeExecute": false,
     "datasource": {
@@ -23,8 +22,8 @@
         "key": "body"
       }
     ],
-    "fullyQualifiedName": "Reporte.myFun1",
-    "name": "myFun1",
+    "fullyQualifiedName": "Reporte.registrar",
+    "name": "registrar",
     "pageId": "ReportarProblema",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

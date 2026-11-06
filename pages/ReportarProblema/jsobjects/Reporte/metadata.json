@@ -8,12 +8,16 @@
     "pluginType": "JS",
     "variables": [
       {
-        "name": "myVar1",
-        "value": "[]"
+        "name": "MAX_BYTES",
+        "value": "10 * 1024 * 1024"
       },
       {
-        "name": "myVar2",
-        "value": "{}"
+        "name": "MAX_ARCHIVOS",
+        "value": "5"
+      },
+      {
+        "name": "TIPOS",
+        "value": "['image/png', 'image/jpeg']"
       }
     ]
   }

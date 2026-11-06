@@ -19,7 +19,11 @@
       "key": "isDisabled"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": "{{RegisterTicketQuery.isLoading}}",
   "isLoading": false,
@@ -34,6 +38,7 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 85,
   "needsErrorInfo": false,
+  "onClick": "{{Reporte.enviar();}}",
   "originalBottomRow": 92,
   "originalTopRow": 85,
   "parentColumnSpace": 14.26171875,
