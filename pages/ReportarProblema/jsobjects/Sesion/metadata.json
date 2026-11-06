@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6aeb2fec668f2711775d68e9_e9e0ceae-7cd0-4692-88f1-2ef478858818",
+  "id": "ReportarProblema_Sesion",
+  "unpublishedCollection": {
+    "name": "Sesion",
+    "pageId": "ReportarProblema",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "ROL_DE_ESTA_APP",
+        "value": "'PORTAL'"
+      }
+    ]
+  }
+}

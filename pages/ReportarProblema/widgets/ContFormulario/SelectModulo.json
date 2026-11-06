@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 70,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "80ow51j9up",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Módulo o sistema afectado",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 23,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 70,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 63,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 70,
+  "originalTopRow": 63,
+  "parentColumnSpace": 14.26171875,
+  "parentId": "0e0eb1rdon",
+  "parentRowSpace": 10,
+  "placeholderText": "Seleccionar...",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 43,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"ERP\",\n    \"code\": \"ERP\"\n  },\n  {\n    \"name\": \"Correo\",\n    \"code\": \"Correo\"\n  },\n  {\n    \"name\": \"VPN\",\n    \"code\": \"VPN\"\n  },\n\t{\n    \"name\": \"Facturación\",\n    \"code\": \"Facturación\"\n  },\n\t{\n    \"name\": \"Hardware\",\n    \"code\": \"Hardware\"\n  },\n\t{\n    \"name\": \"Otro\",\n    \"code\": \"Otro\"\n  }\n]",
+  "topRow": 63,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "jqsm6kms7o",
+  "widgetName": "SelectModulo"
+}

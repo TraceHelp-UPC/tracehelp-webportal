@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 92,
+  "boxShadow": "none",
+  "buttonColor": "#2563eb",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{RegisterTicketQuery.isLoading}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "zbefww0co0",
+  "labelStyle": "BOLD",
+  "labelTextSize": "1rem",
+  "leftColumn": 21,
+  "minWidth": 120,
+  "mobileBottomRow": 89,
+  "mobileLeftColumn": 24,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 85,
+  "needsErrorInfo": false,
+  "originalBottomRow": 92,
+  "originalTopRow": 85,
+  "parentColumnSpace": 14.26171875,
+  "parentId": "0e0eb1rdon",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 44,
+  "text": "Analizar y buscar solución con IA",
+  "topRow": 85,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "hujmn76im7",
+  "widgetName": "Button1"
+}

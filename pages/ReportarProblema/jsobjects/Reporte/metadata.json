@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6aeb2fec668f2711775d68e9_9b7ab701-c3e5-47e9-aa73-2f46dcf7368a",
+  "id": "ReportarProblema_Reporte",
+  "unpublishedCollection": {
+    "name": "Reporte",
+    "pageId": "ReportarProblema",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

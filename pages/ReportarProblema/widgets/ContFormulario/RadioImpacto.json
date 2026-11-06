@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 79,
+  "boxShadow": "none",
+  "defaultOptionValue": "LOW",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "316y03he1e",
+  "label": "Impacto",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 11,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 81,
+  "mobileLeftColumn": 14,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 75,
+  "needsErrorInfo": false,
+  "options": [
+    {
+      "label": "Solo me afecta a mí",
+      "value": "LOW"
+    },
+    {
+      "label": "Afecta a mi área",
+      "value": "MEDIUM"
+    },
+    {
+      "label": "Detiene la operación crítica",
+      "value": "HIGH"
+    }
+  ],
+  "originalBottomRow": 79,
+  "originalTopRow": 73,
+  "parentColumnSpace": 14.26171875,
+  "parentId": "0e0eb1rdon",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 53,
+  "topRow": 73,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "lddxinjlk2",
+  "widgetName": "RadioImpacto"
+}
