@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6aeb2fec668f2711775d68e9_a4ad8c6f-126f-44e7-bca4-1589ce8ea13e",
+  "id": "DetalleTicket_Sesion",
+  "unpublishedCollection": {
+    "name": "Sesion",
+    "pageId": "DetalleTicket",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "ROL_DE_ESTA_APP",
+        "value": "'PORTAL'"
+      }
+    ]
+  }
+}
