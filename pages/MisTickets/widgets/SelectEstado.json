@@ -1,0 +1,72 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "defaultOptionValue": "\"\"",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "1xl6kah0in",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Estado",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 27,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 73,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 66,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{MisTickets.filtrar();}}",
+  "optionLabel": "name",
+  "optionValue": "label",
+  "originalBottomRow": 19,
+  "originalTopRow": 12,
+  "parentColumnSpace": 19.8125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Todos los estados",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
+  "serverSideFiltering": false,
+  "sourceData": "[{\"label\": \"Todos los estados\", \"value\": \"\"}, {\"label\": \"Abierto\", \"value\": \"OPEN\"}, {\"label\": \"Solución sugerida (Autoservicio)\", \"value\": \"SELF_SERVICE_PROPOSED\"}, {\"label\": \"En espera de analista\", \"value\": \"PENDING_ASSIGNMENT\"}, {\"label\": \"En atención N1\", \"value\": \"ASSIGNED_L1\"}, {\"label\": \"Escalado a N2\", \"value\": \"ESCALATED_L2\"}, {\"label\": \"Resuelto\", \"value\": \"RESOLVED\"}, {\"label\": \"Cerrado\", \"value\": \"CLOSED\"}, {\"label\": \"Reabierto\", \"value\": \"REOPENED\"}]",
+  "topRow": 8,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "5d96f0030c",
+  "widgetName": "SelectEstado"
+}

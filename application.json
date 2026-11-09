@@ -31,6 +31,14 @@
     {
       "id": "ReportarProblema",
       "isDefault": false
+    },
+    {
+      "id": "MisTickets",
+      "isDefault": false
+    },
+    {
+      "id": "DetalleTicket",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
