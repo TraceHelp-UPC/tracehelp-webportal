@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 19,
   "boxShadow": "none",
   "buttonColor": "#EF4444",
   "buttonVariant": "SECONDARY",
@@ -38,7 +38,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 63,
   "text": "Reabrir ticket",
-  "topRow": 8,
+  "topRow": 15,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "f1ac4ab597",
