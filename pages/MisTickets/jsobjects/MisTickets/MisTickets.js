@@ -99,7 +99,6 @@ export default {
       'Código': t.code,
       'Título': t.title,
       'Estado': this.etiquetaEstado(t.status),
-      '_status': t.status,
       'Categoría': t.category || '—',
       'Prioridad': t.priority,
       'Capturas': t.evidence_count || 0,
