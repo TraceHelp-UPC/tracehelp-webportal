@@ -47,7 +47,7 @@
     ],
     "name": "DiagnosticoQuery",
     "pageId": "DetalleTicket",
-    "runBehaviour": "AUTOMATIC",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
