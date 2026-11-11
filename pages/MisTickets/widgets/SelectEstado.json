@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 15,
   "boxShadow": "none",
-  "defaultOptionValue": "\"\"",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -51,8 +51,8 @@
   "mobileTopRow": 66,
   "needsErrorInfo": false,
   "onOptionChange": "{{MisTickets.filtrar();}}",
-  "optionLabel": "name",
-  "optionValue": "label",
+  "optionLabel": "label",
+  "optionValue": "value",
   "originalBottomRow": 19,
   "originalTopRow": 12,
   "parentColumnSpace": 19.8125,
@@ -63,7 +63,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 45,
   "serverSideFiltering": false,
-  "sourceData": "[{\"label\": \"Todos los estados\", \"value\": \"\"}, {\"label\": \"Abierto\", \"value\": \"OPEN\"}, {\"label\": \"Solución sugerida (Autoservicio)\", \"value\": \"SELF_SERVICE_PROPOSED\"}, {\"label\": \"En espera de analista\", \"value\": \"PENDING_ASSIGNMENT\"}, {\"label\": \"En atención N1\", \"value\": \"ASSIGNED_L1\"}, {\"label\": \"Escalado a N2\", \"value\": \"ESCALATED_L2\"}, {\"label\": \"Resuelto\", \"value\": \"RESOLVED\"}, {\"label\": \"Cerrado\", \"value\": \"CLOSED\"}, {\"label\": \"Reabierto\", \"value\": \"REOPENED\"}]",
+  "sourceData": "{{ [{\"label\": \"Todos los estados\", \"value\": \"\"}, {\"label\": \"Abierto\", \"value\": \"OPEN\"}, {\"label\": \"Solución sugerida (Autoservicio)\", \"value\": \"SELF_SERVICE_PROPOSED\"}, {\"label\": \"En espera de analista\", \"value\": \"PENDING_ASSIGNMENT\"}, {\"label\": \"En atención N1\", \"value\": \"ASSIGNED_L1\"}, {\"label\": \"Escalado a N2\", \"value\": \"ESCALATED_L2\"}, {\"label\": \"Resuelto\", \"value\": \"RESOLVED\"}, {\"label\": \"Cerrado\", \"value\": \"CLOSED\"}, {\"label\": \"Reabierto\", \"value\": \"REOPENED\"}] }}",
   "topRow": 8,
   "type": "SELECT_WIDGET",
   "version": 1,

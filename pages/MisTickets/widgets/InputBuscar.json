@@ -55,7 +55,7 @@
   "parentRowSpace": 10,
   "placeholderText": "Buscar por código (TK-0001) o asunto…",
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
+  "resetOnSubmit": false,
   "responsiveBehavior": "fill",
   "rightColumn": 26,
   "showStepArrows": false,

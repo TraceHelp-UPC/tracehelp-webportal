@@ -47,7 +47,7 @@
     ],
     "name": "MisTicketsQuery",
     "pageId": "MisTickets",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }
