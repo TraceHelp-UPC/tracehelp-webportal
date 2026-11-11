@@ -1,15 +1,18 @@
 {
   "animateLoading": true,
-  "bottomRow": 20,
+  "bottomRow": 18,
   "dynamicBindingPathList": [
     {
       "key": "text"
     },
     {
       "key": "isVisible"
+    },
+    {
+      "key": "fontFamily"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "0.875rem",
@@ -17,7 +20,7 @@
   "isLoading": false,
   "isVisible": "{{!MisTicketsQuery.isLoading && MisTickets.filas().length === 0}}",
   "key": "2e2696c172",
-  "leftColumn": 2,
+  "leftColumn": 12,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -27,12 +30,12 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 63,
   "shouldTruncate": false,
   "text": "{{MisTickets.mensajeVacio()}}",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 16,
+  "textColor": "#64748B",
+  "topRow": 15,
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "0aade4161c",

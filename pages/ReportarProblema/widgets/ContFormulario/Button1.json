@@ -1,9 +1,9 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 92,
+  "bottomRow": 58,
   "boxShadow": "none",
-  "buttonColor": "#2563eb",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
@@ -12,6 +12,9 @@
     },
     {
       "key": "isDisabled"
+    },
+    {
+      "key": "buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -24,6 +27,8 @@
       "key": "onClick"
     }
   ],
+  "iconAlign": "left",
+  "iconName": "clean",
   "isDefaultClickDisabled": true,
   "isDisabled": "{{RegisterTicketQuery.isLoading}}",
   "isLoading": false,
@@ -31,16 +36,10 @@
   "key": "zbefww0co0",
   "labelStyle": "BOLD",
   "labelTextSize": "1rem",
-  "leftColumn": 21,
+  "leftColumn": 34,
   "minWidth": 120,
-  "mobileBottomRow": 89,
-  "mobileLeftColumn": 24,
-  "mobileRightColumn": 40,
-  "mobileTopRow": 85,
   "needsErrorInfo": false,
   "onClick": "{{Reporte.enviar();}}",
-  "originalBottomRow": 92,
-  "originalTopRow": 85,
   "parentColumnSpace": 14.26171875,
   "parentId": "0e0eb1rdon",
   "parentRowSpace": 10,
@@ -49,9 +48,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 44,
-  "text": "Analizar y buscar solución con IA",
-  "topRow": 85,
+  "rightColumn": 62,
+  "text": "Analizar incidente con IA",
+  "topRow": 53,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "hujmn76im7",

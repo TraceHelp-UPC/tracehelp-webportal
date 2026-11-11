@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 9,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -24,17 +24,11 @@
   "isLoading": false,
   "isVisible": true,
   "key": "411ilwut2j",
-  "leftColumn": 4,
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 50,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 16,
-  "mobileTopRow": 46,
   "needsErrorInfo": false,
-  "originalBottomRow": 9,
-  "originalTopRow": 4,
   "overflow": "NONE",
   "parentColumnSpace": 19.546875,
   "parentId": "gwbbn6jgpn",
@@ -45,8 +39,8 @@
   "shouldTruncate": false,
   "text": "{{DetalleTicket.respuesta().summary || 'Detalle de atención del incidente'}}",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 9,
+  "textColor": "#10B981",
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
