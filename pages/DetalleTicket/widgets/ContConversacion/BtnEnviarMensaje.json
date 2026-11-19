@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 46,
+  "boxShadow": "none",
+  "buttonColor": "#2563EB",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{!InputMensaje.text || !InputMensaje.text.trim() || (InputMensaje.text || '').length > 2000 || EnviarMensajeQuery.isLoading}}",
+  "isLoading": false,
+  "isVisible": "{{!DetalleTicket.ticketCerrado()}}",
+  "key": "b9znmkb3ld",
+  "leftColumn": 44,
+  "minWidth": 120,
+  "needsErrorInfo": false,
+  "onClick": "{{DetalleTicket.enviarMensaje();}}",
+  "parentColumnSpace": 17.9375,
+  "parentId": "qbd311rmcu",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "text": "Enviar",
+  "topRow": 42,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "s41rm1qei7",
+  "widgetName": "BtnEnviarMensaje"
+}
