@@ -51,7 +51,7 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 62,
-  "text": "Analizar incidente con IA",
+  "text": "Enviar incidente",
   "topRow": 51,
   "type": "BUTTON_WIDGET",
   "version": 1,
