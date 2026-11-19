@@ -39,7 +39,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "shouldTruncate": false,
-  "text": "Registramos tu incidente\n{{appsmith.store.ultimoTicket?.code}}",
+  "text": "Ticket registrado\n{{appsmith.store.ultimoTicket?.code}}",
   "textAlign": "CENTER",
   "textColor": "#10B981",
   "topRow": 2,

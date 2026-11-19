@@ -34,7 +34,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "Describe la falla o sube una imagen del mensaje de error.\nNuestro asistente con IA buscará la solución en los manuales de tu\nempresa.",
+  "text": "Describe la falla o sube una imagen del mensaje de error.\nAl enviarlo se registra un ticket y nuestro equipo de soporte lo\nrevisará.",
   "textAlign": "LEFT",
   "textColor": "#64748B",
   "topRow": 14,

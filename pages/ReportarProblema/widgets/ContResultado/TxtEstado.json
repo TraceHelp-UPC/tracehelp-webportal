@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 26,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -29,7 +29,7 @@
   "minDynamicHeight": 4,
   "minWidth": 450,
   "needsErrorInfo": false,
-  "originalBottomRow": 23,
+  "originalBottomRow": 26,
   "originalTopRow": 13,
   "overflow": "NONE",
   "parentColumnSpace": 16.0947265625,
@@ -39,7 +39,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "shouldTruncate": false,
-  "text": "Estado:\n{{appsmith.store.ultimoTicket?.status}} - {{appsmith.store.ultimoTicket?.capturas}} captura(s)",
+  "text": "Estado: {{appsmith.store.ultimoTicket?.statusLabel || appsmith.store.ultimoTicket?.status}}\n{{appsmith.store.ultimoTicket?.capturas}} captura(s) adjunta(s)\n\nNuestro equipo de soporte revisará tu caso. La respuesta llegará en el detalle de tu ticket.",
   "textAlign": "CENTER",
   "textColor": "#0F172A",
   "topRow": 11,
