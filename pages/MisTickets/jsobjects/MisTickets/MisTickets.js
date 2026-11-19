@@ -93,12 +93,20 @@ export default {
     }[st] || st;
   },
 
+  insignia(st) {
+    // El símbolo y el texto transmiten el estado aunque no se perciba el color.
+    const simbolo = { CLOSED: '✔', RESOLVED: '✔', REOPENED: '↻', ESCALATED_L2: '▲', ASSIGNED_L1: '●', PENDING_ASSIGNMENT: '◔', SELF_SERVICE_PROPOSED: '✎', OPEN: '○' }[st] || '○';
+    const texto = st === 'CLOSED' ? 'CERRADO' : st === 'RESOLVED' ? 'RESUELTO' : this.etiquetaEstado(st);
+    return `${simbolo} ${texto}`;
+  },
+
   filas() {
     return (MisTicketsQuery.data?.items || []).map(t => ({
       _id: t.id,
       'Código': t.code,
       'Título': t.title,
-      'Estado': this.etiquetaEstado(t.status),
+      '_estado': t.status,
+      'Estado': this.insignia(t.status),
       'Categoría': t.category || '—',
       'Prioridad': t.priority,
       'Capturas': t.evidence_count || 0,
