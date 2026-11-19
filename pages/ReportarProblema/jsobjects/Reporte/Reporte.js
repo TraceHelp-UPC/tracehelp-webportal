@@ -51,9 +51,20 @@ export default {
 		showModal(ModalProcesando.name);
 		try {
 			const ticket = await this.registrar();
+			const estados = {
+				OPEN: 'Registrado, en revisión inicial',
+				SELF_SERVICE_PROPOSED: 'Registrado, en revisión',
+				PENDING_ASSIGNMENT: 'En espera de un analista',
+				ASSIGNED_L1: 'En atención (Nivel 1)',
+				ESCALATED_L2: 'Escalado a Nivel 2',
+				RESOLVED: 'Resuelto',
+				CLOSED: 'Cerrado',
+				REOPENED: 'Reabierto',
+			};
 			await storeValue('ultimoTicket', {
 				code: ticket.code,
 				status: ticket.status,
+				statusLabel: estados[ticket.status] || 'Registrado',
 				title: ticket.title,
 				capturas: (ticket.evidences || []).length,
 			});
@@ -69,7 +80,7 @@ export default {
 	},
 
 	async nuevoReporte() {
-		await storeValue('ultimoTicket', undefined);
+		await removeValue('ultimoTicket');
 		resetWidget('ContFormulario', true);
 	},
 };

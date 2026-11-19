@@ -34,6 +34,7 @@
   },
   "columnOrder": [
     "_id",
+    "_estado",
     "Prioridad",
     "customColumn1",
     "xn__Cdigo_0ta1",
@@ -45,7 +46,7 @@
   ],
   "columnUpdatedAt": 1794440922326,
   "columnWidthMap": {
-    "Estado1": 209,
+    "Estado1": 190,
     "xn__Ttulo_zsa": 227
   },
   "customIsLoading": false,
@@ -86,6 +87,18 @@
     },
     {
       "key": "primaryColumns.Fecha1.computedValue"
+    },
+    {
+      "key": "primaryColumns.Estado1.cellBackground"
+    },
+    {
+      "key": "primaryColumns.Estado1.textColor"
+    },
+    {
+      "key": "primaryColumns._estado.computedValue"
+    },
+    {
+      "key": "primaryColumns.Prioridad.textColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -101,6 +114,12 @@
     },
     {
       "key": "primaryColumns.Prioridad.textColor"
+    },
+    {
+      "key": "primaryColumns.Estado1.cellBackground"
+    },
+    {
+      "key": "primaryColumns.Estado1.textColor"
     }
   ],
   "dynamicTriggerPathList": [
@@ -180,14 +199,14 @@
       "allowCellWrapping": false,
       "allowHeaderWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{(() => { const tableData = TablaTickets.processedTableData || []; return tableData.map((currentRow, currentIndex) => (({CLOSED: \"#D1FAE5\", RESOLVED: \"#D1FAE5\", REOPENED: \"#FEE2E2\", ESCALATED_L2: \"#EDE9FE\", ASSIGNED_L1: \"#CFFAFE\", PENDING_ASSIGNMENT: \"#FEF3C7\", SELF_SERVICE_PROPOSED: \"#E0E7FF\", OPEN: \"#DBEAFE\"})[currentRow._estado] || \"\")) })()}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = TablaTickets.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"Estado\"])) : Estado })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
-      "fontStyle": "",
+      "fontStyle": "BOLD",
       "horizontalAlignment": "LEFT",
       "id": "Estado1",
       "index": 3,
@@ -203,12 +222,12 @@
       "notation": "standard",
       "originalId": "Estado",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{(() => { const tableData = TablaTickets.processedTableData || []; return tableData.map((currentRow, currentIndex) => (({CLOSED: \"#065F46\", RESOLVED: \"#065F46\", REOPENED: \"#991B1B\", ESCALATED_L2: \"#5B21B6\", ASSIGNED_L1: \"#155E75\", PENDING_ASSIGNMENT: \"#92400E\", SELF_SERVICE_PROPOSED: \"#3730A3\", OPEN: \"#1E40AF\"})[currentRow._estado] || \"#0F172A\")) })()}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 150
+      "width": 190
     },
     "Fecha1": {
       "alias": "Fecha",
@@ -453,6 +472,41 @@
       "label": "Título",
       "notation": "standard",
       "originalId": "Título",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "_estado": {
+      "alias": "_estado",
+      "allowCellWrapping": false,
+      "allowHeaderWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = TablaTickets.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"_estado\"])) : _estado })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "_estado",
+      "index": 9,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "_estado",
+      "notation": "standard",
+      "originalId": "_estado",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",

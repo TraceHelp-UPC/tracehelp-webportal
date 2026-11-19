@@ -11,7 +11,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconAlign": "left",
   "iconName": "inbox",
   "isDefaultClickDisabled": true,
@@ -22,7 +26,7 @@
   "leftColumn": 3,
   "minWidth": 120,
   "needsErrorInfo": false,
-  "onClick": "",
+  "onClick": "{{navigateTo('MisTickets', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 4.782958984375,
   "parentId": "tdou25dr62",
   "parentRowSpace": 10,
