@@ -1,0 +1,48 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "#2563EB",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "refresh",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{MensajesQuery.isLoading}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "o4rls2q6ck",
+  "leftColumn": 48,
+  "minWidth": 120,
+  "needsErrorInfo": false,
+  "onClick": "{{DetalleTicket.refrescarMensajes(true);}}",
+  "parentColumnSpace": 17.9375,
+  "parentId": "qbd311rmcu",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "text": "Actualizar",
+  "topRow": 1,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ux4roj2dak",
+  "widgetName": "BtnRefrescarHilo"
+}
