@@ -47,11 +47,8 @@ export default {
       showAlert(this.detalle(TicketQuery, 'No pudimos abrir el ticket.'), 'error');
       return navigateTo('MisTickets');
     }
-    try {
-      await this.ejecutar(DiagnosticoQuery, { id });
-    } catch (e) {
-      /* Solo hay diagnóstico visible cuando hay autoservicio propuesto */
-    }
+    /* El colaborador no consulta /diagnosis (el backend responde 403 a propósito): la
+       respuesta de IA llegará con US12/W-03. Aquí solo se muestran comentarios de soporte. */
     try {
       await this.ejecutar(HistorialQuery, { id });
     } catch (e) {
